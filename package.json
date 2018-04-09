@@ -1,7 +1,7 @@
 {
   "name": "huli-env",
   "version": "1.0.0",
-  "description": "huli environment service dependency-injection",
+  "description": "Environment service for MySQL connection",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,8 @@
     "huli",
     "environment",
     "service",
+    "RDS",
+    "MySQL",
     "dependency-injection"
   ],
   "author": "Crystalpig Conclave",
