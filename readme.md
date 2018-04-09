@@ -1,9 +1,8 @@
 # Húlí Environment Service
 
-This little package is responsible to provide connection-object for MySQL connection.
+This little package is responsible to provide connection-object for MySQL connections.
 
-By default it uses the standard RDS environment variables, but it can be overriden
-with a custom connection-object
+By default it uses the standard RDS environment variables, but it can be overriden with a custom connection-object
 
 **The connection object must contain the following keys:**
 
@@ -11,9 +10,9 @@ with a custom connection-object
 {
   "host": "",
   "port": "",
-  "database": "",
   "user": "",
-  "password": ""
+  "password": "",
+  "database": "",
 }
 ```
 
